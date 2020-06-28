@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TwitterAPISuite]">
+  <test name="Regression">
+    <classes>
+      <class name="UserAccount.TwitterUser"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Failed suite [TwitterAPISuite] -->

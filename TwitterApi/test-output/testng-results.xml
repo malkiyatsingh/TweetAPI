@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TwitterAPISuite" duration-ms="9759" started-at="2020-06-28T06:50:16Z" finished-at="2020-06-28T06:50:25Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="9759" started-at="2020-06-28T06:50:16Z" finished-at="2020-06-28T06:50:25Z">
+      <class name="UserAccount.TwitterUser">
+        <test-method status="PASS" signature="StatupConfig()[pri:0, instance:UserAccount.TwitterUser@51081592]" name="StatupConfig" is-config="true" duration-ms="784" started-at="2020-06-28T14:50:15Z" finished-at="2020-06-28T14:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatupConfig -->
+        <test-method status="PASS" signature="CreateTweets()[pri:1, instance:UserAccount.TwitterUser@51081592]" name="CreateTweets" duration-ms="5226" started-at="2020-06-28T14:50:16Z" finished-at="2020-06-28T14:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTweets -->
+        <test-method status="PASS" signature="getTweet()[pri:2, instance:UserAccount.TwitterUser@51081592]" name="getTweet" duration-ms="2489" started-at="2020-06-28T14:50:21Z" finished-at="2020-06-28T14:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTweet -->
+        <test-method status="PASS" signature="ShowStatusTweets()[pri:3, instance:UserAccount.TwitterUser@51081592]" name="ShowStatusTweets" duration-ms="489" started-at="2020-06-28T14:50:23Z" finished-at="2020-06-28T14:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowStatusTweets -->
+        <test-method status="PASS" signature="ValidatewithExistingTweet()[pri:4, instance:UserAccount.TwitterUser@51081592]" name="ValidatewithExistingTweet" duration-ms="462" started-at="2020-06-28T14:50:24Z" finished-at="2020-06-28T14:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatewithExistingTweet -->
+        <test-method status="PASS" signature="DeleteTweet()[pri:5, instance:UserAccount.TwitterUser@51081592]" name="DeleteTweet" duration-ms="599" started-at="2020-06-28T14:50:24Z" finished-at="2020-06-28T14:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTweet -->
+        <test-method status="PASS" signature="CheckTweet()[pri:6, instance:UserAccount.TwitterUser@51081592]" name="CheckTweet" duration-ms="458" started-at="2020-06-28T14:50:25Z" finished-at="2020-06-28T14:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTweet -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:UserAccount.TwitterUser@51081592]" name="TearDown" is-config="true" duration-ms="440" started-at="2020-06-28T14:50:26Z" finished-at="2020-06-28T14:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- UserAccount.TwitterUser -->
+    </test> <!-- Regression -->
+  </suite> <!-- TwitterAPISuite -->
+</testng-results>
